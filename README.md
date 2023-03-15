@@ -10,6 +10,8 @@ We start by cleaning our data. Tasks during this section include:
 2. Removing rows based on a condition
 3. Change the type of columns (to_numeric, to_datetime, astype)
 
+## Data Exploration
+
 Once we have cleaned up our data a bit, we move the data exploration section. In this section we explore 5 high level business questions related to our data:
 
 1. What was the best month for sales? How much was earned that month?
@@ -17,12 +19,15 @@ Once we have cleaned up our data a bit, we move the data exploration section. In
 3. What time should we display advertisemens to maximize the likelihood of customer’s buying product?
 4. What products are most often sold together?
 4. What product sold the most? Why do you think it sold the most?
-5. To answer these questions we walk through many different pandas & matplotlib methods. They include:
 
-Concatenating multiple csvs together to create a new DataFrame (pd.concat)
-Adding columns
-Parsing cells as strings to make new columns (.str)
-Using the .apply() method
-Using groupby to perform aggregate analysis
-Plotting bar charts and lines graphs to visualize our results
-Labeling our graphs
+## Methods Used
+
+To answer these questions we walk through many different pandas & matplotlib methods. They include:
+
+1. Concatenating multiple csvs together to create a new DataFrame (pd.concat)
+2. Adding columns
+3. Parsing cells as strings to make new columns (.str)
+4. Using the .apply() method
+5. Using groupby to perform aggregate analysis
+6. Plotting bar charts and lines graphs to visualize our results
+7. Labeling our graphs
